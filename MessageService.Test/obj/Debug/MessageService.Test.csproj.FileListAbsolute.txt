@@ -1,0 +1,16 @@
+C:\Users\JimmyPoor\Desktop\P\distribute\ServiceHeaven\MessageService\ServiceHeaven.MessageService\MessageService.Test\bin\Debug\MessageService.Test.pdb
+C:\Users\JimmyPoor\Desktop\P\distribute\ServiceHeaven\MessageService\ServiceHeaven.MessageService\MessageService.Test\bin\Debug\nunit.framework.dll
+C:\Users\JimmyPoor\Desktop\P\distribute\ServiceHeaven\MessageService\ServiceHeaven.MessageService\MessageService.Test\bin\Debug\nunit.framework.xml
+C:\Users\JimmyPoor\Desktop\P\distribute\ServiceHeaven\MessageService\ServiceHeaven.MessageService\MessageService.Test\obj\Debug\MessageService.Test.csprojResolveAssemblyReference.cache
+C:\Users\JimmyPoor\Desktop\P\distribute\ServiceHeaven\MessageService\ServiceHeaven.MessageService\MessageService.Test\obj\Debug\MessageService.Test.pdb
+C:\Users\JimmyPoor\Desktop\P\distribute\ServiceHeaven\MessageService\ServiceHeaven.MessageService\MessageService.Test\bin\Debug\MessageService.Test.exe
+C:\Users\JimmyPoor\Desktop\P\distribute\ServiceHeaven\MessageService\ServiceHeaven.MessageService\MessageService.Test\obj\Debug\MessageService.Test.exe
+C:\Users\JimmyPoor\Desktop\P\distribute\ServiceHeaven\MessageService\ServiceHeaven.MessageService\MessageService.Test\bin\Debug\MessageService.Core.dll
+C:\Users\JimmyPoor\Desktop\P\distribute\ServiceHeaven\MessageService\ServiceHeaven.MessageService\MessageService.Test\bin\Debug\RabbitMQ.Client.dll
+C:\Users\JimmyPoor\Desktop\P\distribute\ServiceHeaven\MessageService\ServiceHeaven.MessageService\MessageService.Test\bin\Debug\Microsoft.Practices.Unity.dll
+C:\Users\JimmyPoor\Desktop\P\distribute\ServiceHeaven\MessageService\ServiceHeaven.MessageService\MessageService.Test\bin\Debug\Microsoft.Practices.ServiceLocation.dll
+C:\Users\JimmyPoor\Desktop\P\distribute\ServiceHeaven\MessageService\ServiceHeaven.MessageService\MessageService.Test\bin\Debug\MessageService.Core.pdb
+C:\Users\JimmyPoor\Desktop\P\distribute\ServiceHeaven\MessageService\ServiceHeaven.MessageService\MessageService.Test\bin\Debug\RabbitMQ.Client.xml
+C:\Users\JimmyPoor\Desktop\P\distribute\ServiceHeaven\MessageService\ServiceHeaven.MessageService\MessageService.Test\bin\Debug\Microsoft.Practices.Unity.xml
+C:\Users\JimmyPoor\Desktop\P\distribute\ServiceHeaven\MessageService\ServiceHeaven.MessageService\MessageService.Test\bin\Debug\Microsoft.Practices.ServiceLocation.pdb
+C:\Users\JimmyPoor\Desktop\P\distribute\ServiceHeaven\MessageService\ServiceHeaven.MessageService\MessageService.Test\bin\Debug\Microsoft.Practices.ServiceLocation.xml

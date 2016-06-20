@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<test-run id="2" testcasecount="0" result="Failed" label="Invalid" total="0" passed="0" failed="0" inconclusive="0" skipped="0" asserts="0" engine-version="3.2.0.0" clr-version="4.0.30319.42000" start-time="2016-03-17 11:31:05Z" end-time="2016-03-17 11:31:05Z" duration="0.008812">
+  <command-line><![CDATA[nunit3-console.exe  C:\Users\JimmyPoor\Desktop\P\distribute\ServiceHeaven\MessageService\ServiceHeaven.MessageService\MessageService.Test\bin\Debug\MessageService.Test.dll]]></command-line>
+  <test-suite type="Assembly" id="0-1" name="MessageService.Test.dll" fullname="C:\Users\JimmyPoor\Desktop\P\distribute\ServiceHeaven\MessageService\ServiceHeaven.MessageService\MessageService.Test\bin\Debug\MessageService.Test.dll" testcasecount="0" runstate="NotRunnable" result="Failed" label="Invalid">
+    <properties>
+      <property name="_SKIPREASON" value="File not found: C:\Users\JimmyPoor\Desktop\P\distribute\ServiceHeaven\MessageService\ServiceHeaven.MessageService\MessageService.Test\bin\Debug\MessageService.Test.dll" />
+    </properties>
+    <reason>
+      <message>File not found: C:\Users\JimmyPoor\Desktop\P\distribute\ServiceHeaven\MessageService\ServiceHeaven.MessageService\MessageService.Test\bin\Debug\MessageService.Test.dll</message>
+    </reason>
+  </test-suite>
+</test-run>

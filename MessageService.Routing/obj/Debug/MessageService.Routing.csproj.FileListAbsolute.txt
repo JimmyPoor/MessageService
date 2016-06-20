@@ -1,0 +1,14 @@
+C:\Users\JimmyPoor\Desktop\P\distribute\ServiceHeaven\MessageService\ServiceHeaven.MessageService\MessageService.Routing\bin\Debug\MessageService.Routing.dll
+C:\Users\JimmyPoor\Desktop\P\distribute\ServiceHeaven\MessageService\ServiceHeaven.MessageService\MessageService.Routing\bin\Debug\MessageService.Routing.pdb
+C:\Users\JimmyPoor\Desktop\P\distribute\ServiceHeaven\MessageService\ServiceHeaven.MessageService\MessageService.Routing\bin\Debug\MessageService.Core.dll
+C:\Users\JimmyPoor\Desktop\P\distribute\ServiceHeaven\MessageService\ServiceHeaven.MessageService\MessageService.Routing\bin\Debug\RabbitMQ.Client.dll
+C:\Users\JimmyPoor\Desktop\P\distribute\ServiceHeaven\MessageService\ServiceHeaven.MessageService\MessageService.Routing\bin\Debug\Microsoft.Practices.Unity.dll
+C:\Users\JimmyPoor\Desktop\P\distribute\ServiceHeaven\MessageService\ServiceHeaven.MessageService\MessageService.Routing\bin\Debug\Microsoft.Practices.ServiceLocation.dll
+C:\Users\JimmyPoor\Desktop\P\distribute\ServiceHeaven\MessageService\ServiceHeaven.MessageService\MessageService.Routing\bin\Debug\MessageService.Core.pdb
+C:\Users\JimmyPoor\Desktop\P\distribute\ServiceHeaven\MessageService\ServiceHeaven.MessageService\MessageService.Routing\bin\Debug\RabbitMQ.Client.xml
+C:\Users\JimmyPoor\Desktop\P\distribute\ServiceHeaven\MessageService\ServiceHeaven.MessageService\MessageService.Routing\bin\Debug\Microsoft.Practices.Unity.xml
+C:\Users\JimmyPoor\Desktop\P\distribute\ServiceHeaven\MessageService\ServiceHeaven.MessageService\MessageService.Routing\bin\Debug\Microsoft.Practices.ServiceLocation.pdb
+C:\Users\JimmyPoor\Desktop\P\distribute\ServiceHeaven\MessageService\ServiceHeaven.MessageService\MessageService.Routing\bin\Debug\Microsoft.Practices.ServiceLocation.xml
+C:\Users\JimmyPoor\Desktop\P\distribute\ServiceHeaven\MessageService\ServiceHeaven.MessageService\MessageService.Routing\obj\Debug\MessageService.Routing.csprojResolveAssemblyReference.cache
+C:\Users\JimmyPoor\Desktop\P\distribute\ServiceHeaven\MessageService\ServiceHeaven.MessageService\MessageService.Routing\obj\Debug\MessageService.Routing.dll
+C:\Users\JimmyPoor\Desktop\P\distribute\ServiceHeaven\MessageService\ServiceHeaven.MessageService\MessageService.Routing\obj\Debug\MessageService.Routing.pdb

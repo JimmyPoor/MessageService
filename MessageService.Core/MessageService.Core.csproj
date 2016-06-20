@@ -1,0 +1,126 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{2FE912ED-0595-415D-8AEF-A7614A5A3450}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>MessageService.Core</RootNamespace>
+    <AssemblyName>MessageService.Core</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.Practices.ServiceLocation, Version=1.3.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\CommonServiceLocator.1.3\lib\portable-net4+sl5+netcore45+wpa81+wp8\Microsoft.Practices.ServiceLocation.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.Practices.Unity, Version=4.0.0.0, Culture=neutral, PublicKeyToken=6d32ff45e0ccc69f, processorArchitecture=MSIL">
+      <HintPath>..\packages\Unity.4.0.1\lib\net45\Microsoft.Practices.Unity.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.Practices.Unity.Configuration, Version=4.0.0.0, Culture=neutral, PublicKeyToken=6d32ff45e0ccc69f, processorArchitecture=MSIL">
+      <HintPath>..\packages\Unity.4.0.1\lib\net45\Microsoft.Practices.Unity.Configuration.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.Practices.Unity.RegistrationByConvention, Version=4.0.0.0, Culture=neutral, PublicKeyToken=6d32ff45e0ccc69f, processorArchitecture=MSIL">
+      <HintPath>..\packages\Unity.4.0.1\lib\net45\Microsoft.Practices.Unity.RegistrationByConvention.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="RabbitMQ.Client, Version=3.6.1.0, Culture=neutral, PublicKeyToken=89e7d7c5feba84ce, processorArchitecture=MSIL">
+      <HintPath>..\packages\RabbitMQ.Client.3.6.1\lib\net45\RabbitMQ.Client.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Bus\ServiceBus.cs" />
+    <Compile Include="Error.cs" />
+    <Compile Include="IServiceBus.cs" />
+    <Compile Include="Container\Unity\UnityContainer.cs" />
+    <Compile Include="Context.cs" />
+    <Compile Include="Contract.cs" />
+    <Compile Include="Enctryption\IEncryption.cs" />
+    <Compile Include="EndPoint\EndpointContract.cs" />
+    <Compile Include="EndPoint\EndpointDefinition.cs" />
+    <Compile Include="EndPoint\EndpointPhysicalAddress.cs" />
+    <Compile Include="EndPoint\ServiceEndpoint.cs" />
+    <Compile Include="IObjectContainer.cs" />
+    <Compile Include="IServiceMessage.cs" />
+    <Compile Include="IStartable.cs" />
+    <Compile Include="IComponent.cs" />
+    <Compile Include="Message\IMessageLisenter.cs" />
+    <Compile Include="Message\IMessageOperation.cs" />
+    <Compile Include="Message\IMessageInvoker.cs" />
+    <Compile Include="Message\InvokeContextMapper.cs" />
+    <Compile Include="Message\MessageInvokeContext.cs" />
+    <Compile Include="Message\MessageInvokerManager.cs" />
+    <Compile Include="Message\ServiceMessage.cs" />
+    <Compile Include="Middleware\Steps\DeserializeMessageStep.cs" />
+    <Compile Include="Middleware\Steps\SerializeMessageStep.cs" />
+    <Compile Include="Middleware\MiddlewareListener.cs" />
+    <Compile Include="Middleware\MiddlewareSender.cs" />
+    <Compile Include="Middleware\RabbiMQ\RabbiMQContext.cs" />
+    <Compile Include="Middleware\ServiceMiddleware.cs" />
+    <Compile Include="Middleware\RabbiMQ\RabbitMQMiddlewareBehavior.cs" />
+    <Compile Include="Middleware\Steps\SubscribeMessageStep.cs" />
+    <Compile Include="Serializor\DefaultSerilizer.cs" />
+    <Compile Include="Steps\StepContextMapper.cs" />
+    <Compile Include="Steps\StepError.cs" />
+    <Compile Include="Util\Log\ILogger.cs" />
+    <Compile Include="Util\ObjectMapperList.cs" />
+    <Compile Include="Steps\StepsManager.cs" />
+    <Compile Include="Persistance\IPersistence.cs" />
+    <Compile Include="Persistance\IStorage.cs" />
+    <Compile Include="Persistance\Memory\MemoryStorage.cs" />
+    <Compile Include="Persistance\ServicePersistence.cs" />
+    <Compile Include="Persistance\StorageSource.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Serializor\ISearilizer.cs" />
+    <Compile Include="Settings.cs" />
+    <Compile Include="Steps\IStep.cs" />
+    <Compile Include="Steps\StepProcessContext.cs" />
+    <Compile Include="Steps\ServiceSteps.cs" />
+    <Compile Include="Middleware\IMiddleware.cs" />
+    <Compile Include="Util\AssistClass.cs" />
+    <Compile Include="Util\StaticStringDefinition.cs" />
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <None Include="packages.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

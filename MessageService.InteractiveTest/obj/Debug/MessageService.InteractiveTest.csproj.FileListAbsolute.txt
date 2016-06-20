@@ -1,0 +1,16 @@
+C:\Users\JimmyPoor\Desktop\P\distribute\ServiceHeaven\MessageService\ServiceHeaven.MessageService\MessageService.InteractiveTest\obj\Debug\MessageService.InteractiveTest.csprojResolveAssemblyReference.cache
+C:\Users\JimmyPoor\Desktop\P\distribute\ServiceHeaven\MessageService\ServiceHeaven.MessageService\MessageService.InteractiveTest\bin\Debug\MessageService.InteractiveTest.pdb
+C:\Users\JimmyPoor\Desktop\P\distribute\ServiceHeaven\MessageService\ServiceHeaven.MessageService\MessageService.InteractiveTest\bin\Debug\MessageService.Core.dll
+C:\Users\JimmyPoor\Desktop\P\distribute\ServiceHeaven\MessageService\ServiceHeaven.MessageService\MessageService.InteractiveTest\bin\Debug\RabbitMQ.Client.dll
+C:\Users\JimmyPoor\Desktop\P\distribute\ServiceHeaven\MessageService\ServiceHeaven.MessageService\MessageService.InteractiveTest\bin\Debug\Microsoft.Practices.Unity.dll
+C:\Users\JimmyPoor\Desktop\P\distribute\ServiceHeaven\MessageService\ServiceHeaven.MessageService\MessageService.InteractiveTest\bin\Debug\Microsoft.Practices.ServiceLocation.dll
+C:\Users\JimmyPoor\Desktop\P\distribute\ServiceHeaven\MessageService\ServiceHeaven.MessageService\MessageService.InteractiveTest\bin\Debug\MessageService.Core.pdb
+C:\Users\JimmyPoor\Desktop\P\distribute\ServiceHeaven\MessageService\ServiceHeaven.MessageService\MessageService.InteractiveTest\bin\Debug\RabbitMQ.Client.xml
+C:\Users\JimmyPoor\Desktop\P\distribute\ServiceHeaven\MessageService\ServiceHeaven.MessageService\MessageService.InteractiveTest\bin\Debug\Microsoft.Practices.Unity.xml
+C:\Users\JimmyPoor\Desktop\P\distribute\ServiceHeaven\MessageService\ServiceHeaven.MessageService\MessageService.InteractiveTest\bin\Debug\Microsoft.Practices.ServiceLocation.pdb
+C:\Users\JimmyPoor\Desktop\P\distribute\ServiceHeaven\MessageService\ServiceHeaven.MessageService\MessageService.InteractiveTest\bin\Debug\Microsoft.Practices.ServiceLocation.xml
+C:\Users\JimmyPoor\Desktop\P\distribute\ServiceHeaven\MessageService\ServiceHeaven.MessageService\MessageService.InteractiveTest\obj\Debug\MessageService.InteractiveTest.pdb
+C:\Users\JimmyPoor\Desktop\P\distribute\ServiceHeaven\MessageService\ServiceHeaven.MessageService\MessageService.InteractiveTest\bin\Debug\MessageService.InteractiveTest.exe
+C:\Users\JimmyPoor\Desktop\P\distribute\ServiceHeaven\MessageService\ServiceHeaven.MessageService\MessageService.InteractiveTest\obj\Debug\MessageService.InteractiveTest.exe
+C:\Users\JimmyPoor\Desktop\P\distribute\ServiceHeaven\MessageService\ServiceHeaven.MessageService\MessageService.InteractiveTest\bin\Debug\MessageService.Routing.dll
+C:\Users\JimmyPoor\Desktop\P\distribute\ServiceHeaven\MessageService\ServiceHeaven.MessageService\MessageService.InteractiveTest\bin\Debug\MessageService.Routing.pdb
